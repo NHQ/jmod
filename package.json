@@ -1,6 +1,6 @@
 {
   "name": "jmod",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "audio / dsp enveloping with some added features",
   "main": "index.js",
   "directories": {
@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies" : {
-    "nvelope" : ""
+  "dependencies": {
+    "nvelope": ""
   },
   "repository": {
     "type": "git",
