@@ -20,7 +20,6 @@ module.exports = function(params){
 			var xd = params.durations.slice(params.sustain[0], params.sustain[0] + params.sustain.length)
 			var sd = xd.reduce(function(e, i){return e+i},0);
 			var start = params.durations.slice(0, params.sustain[0]).reduce(function(e,i){return e+i},0)
-			console.log(start, sd)
 			var diff = undefined;
 			sustain = function(t){
 				if(t < start) return envelope(t);
